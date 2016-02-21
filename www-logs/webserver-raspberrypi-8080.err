@@ -1,0 +1,30 @@
+2016-02-20 20:38:04,209 [INFO] Server starting raspberrypi:8080 (level=debug)
+2016-02-20 20:38:08,098 [DEBUG] GET /boardcommandcenter.html?get_arg1=poop&get_arg2=dick
+2016-02-20 20:38:08,099 [DEBUG] PATH /boardcommandcenter.html
+2016-02-20 20:38:08,100 [DEBUG] ARGS 2
+2016-02-20 20:38:08,100 [DEBUG] ARG[0] get_arg1=['poop']
+2016-02-20 20:38:08,101 [DEBUG] ARG[1] get_arg2=['dick']
+2016-02-20 20:38:08,102 [DEBUG] FILE /home/pi/ledBoardProject/boardcommandcenter.html
+127.0.0.1 - - [20/Feb/2016 20:38:08] "GET /boardcommandcenter.html?get_arg1=poop&get_arg2=dick HTTP/1.1" 200 -
+2016-02-20 20:38:08,642 [DEBUG] GET /www/webserver.css
+2016-02-20 20:38:08,643 [DEBUG] PATH /www/webserver.css
+2016-02-20 20:38:08,644 [DEBUG] ARGS 0
+2016-02-20 20:38:08,644 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.css
+127.0.0.1 - - [20/Feb/2016 20:38:08] "GET /www/webserver.css HTTP/1.1" 200 -
+2016-02-20 20:38:08,656 [DEBUG] GET /www/webserver.js
+2016-02-20 20:38:08,657 [DEBUG] PATH /www/webserver.js
+2016-02-20 20:38:08,658 [DEBUG] ARGS 0
+2016-02-20 20:38:08,659 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.js
+127.0.0.1 - - [20/Feb/2016 20:38:08] "GET /www/webserver.js HTTP/1.1" 200 -
+2016-02-20 20:38:08,916 [DEBUG] GET /www/webserver.png
+2016-02-20 20:38:08,917 [DEBUG] PATH /www/webserver.png
+2016-02-20 20:38:08,918 [DEBUG] ARGS 0
+2016-02-20 20:38:08,919 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+127.0.0.1 - - [20/Feb/2016 20:38:08] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-20 20:38:52,934 [DEBUG] GET /webserver.html?get_arg1=poop&get_arg2=dick
+2016-02-20 20:38:52,935 [DEBUG] PATH /webserver.html
+2016-02-20 20:38:52,936 [DEBUG] ARGS 2
+2016-02-20 20:38:52,936 [DEBUG] ARG[0] get_arg1=['poop']
+2016-02-20 20:38:52,937 [DEBUG] ARG[1] get_arg2=['dick']
+2016-02-20 20:38:52,937 [DEBUG] FILE /home/pi/ledBoardProject/webserver.html
+127.0.0.1 - - [20/Feb/2016 20:38:52] "GET /webserver.html?get_arg1=poop&get_arg2=dick HTTP/1.1" 500 -

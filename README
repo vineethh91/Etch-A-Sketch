@@ -1,0 +1,35 @@
+##############################
+#                            #
+# Get the hell out of here!  #
+#                            #
+##############################
+
+###############################
+#Usage:                       
+#                            
+# Download repo
+# >git checkout <repository>  
+# >chmod a+x startLEDBoard.sh 
+# >chmod a+x stopLEDBoard.sh 
+#
+# To start:                    
+#  in regular mode(no verbose logging)
+#    >./startLEDBoard.sh
+#  in debug mode(verbose logging)
+#    >./startDebugModeLEDBoard.sh
+#                             
+# To stop:                    
+# >./stopLEDBoard.sh          
+#
+# To send GET/POST requests to board
+#   *Start the led board using script above
+#   *visit http://raspberrypi:8080/webserver.html
+#   *Type in your parameters and hit the button! 
+#
+#   **Or construct your own eg. http://raspberrypi:8080/webserver.html?get_arg1=command%3Ainitialize
+#
+#
+# To view logs for webserver requests
+#  >cd www-logs/
+#  >cat webserver-raspberrypi-8080.err 
+###############################
