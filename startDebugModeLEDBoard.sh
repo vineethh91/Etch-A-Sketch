@@ -2,7 +2,7 @@
 #
 # Start the webserver.
 #
-WsBase=./www-logs/webserver-$(hostname)-8080
+WsBase=./www-logs/webserver-0.0.0.0-8080
 PidFile=$WsBase.pid
 if [ -f $PidFile ] ; then
     Pid=$(cat $PidFile)
@@ -14,6 +14,6 @@ if [ -f $PidFile ] ; then
 	rm -f $PidFile
     fi
 fi
-./start.py -H $(hostname) -p 8080 -l debug --no-dirlist -r ./ -d ./www-logs
+./start.py -H 0.0.0.0 -p 8080 -l debug --no-dirlist -r ./ -d ./www-logs
 
 echo "started"

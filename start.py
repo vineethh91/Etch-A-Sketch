@@ -214,13 +214,7 @@ def make_request_handler_class(opts):
                 self.send_header('Content-type', 'text/html')
                 self.end_headers()
                 self.info()
-            elif self.path == '/boardcommandcenter.html' or self.path == '/boardcommandcenter.html/':
-                requestIntepreter = RequestInterpreter()
-                requestInterpreter.interpretRequest()
-                self.send_response(200)  # OK
-                self.send_header('Content-type', 'text/html')
-                self.end_headers()
-                self.info()
+            #elif self.path == '/boardcommandcenter.html' or self.path == '/boardcommandcenter.html/':
             else:
                 # Get the file path.
                 path = MyRequestHandler.m_opts.rootdir + rpath

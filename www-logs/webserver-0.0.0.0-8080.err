@@ -1,0 +1,192 @@
+2016-02-21 17:22:34,923 [INFO] Server starting 0.0.0.0:8080 (level=debug)
+2016-02-21 17:22:37,694 [DEBUG] GET /boardcommandcenter.html
+2016-02-21 17:22:37,695 [DEBUG] PATH /boardcommandcenter.html
+2016-02-21 17:22:37,696 [DEBUG] ARGS 0
+2016-02-21 17:22:37,697 [DEBUG] FILE /home/pi/ledBoardProject/boardcommandcenter.html
+104.156.97.122 - - [21/Feb/2016 17:22:37] "GET /boardcommandcenter.html HTTP/1.1" 200 -
+2016-02-21 17:22:37,827 [DEBUG] GET /www/webserver.css
+2016-02-21 17:22:37,829 [DEBUG] PATH /www/webserver.css
+2016-02-21 17:22:37,830 [DEBUG] ARGS 0
+2016-02-21 17:22:37,831 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.css
+104.156.97.122 - - [21/Feb/2016 17:22:37] "GET /www/webserver.css HTTP/1.1" 200 -
+2016-02-21 17:22:37,839 [DEBUG] GET /www/webserver.js
+2016-02-21 17:22:37,840 [DEBUG] PATH /www/webserver.js
+2016-02-21 17:22:37,841 [DEBUG] ARGS 0
+2016-02-21 17:22:37,842 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.js
+104.156.97.122 - - [21/Feb/2016 17:22:37] "GET /www/webserver.js HTTP/1.1" 200 -
+2016-02-21 17:22:37,854 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:37,857 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:37,858 [DEBUG] ARGS 0
+2016-02-21 17:22:37,858 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+104.156.97.122 - - [21/Feb/2016 17:22:37] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:38,108 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:38,110 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:38,111 [DEBUG] ARGS 0
+2016-02-21 17:22:38,111 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+104.156.97.122 - - [21/Feb/2016 17:22:38] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:50,030 [DEBUG] GET /boardcommandcenter.html
+2016-02-21 17:22:50,031 [DEBUG] PATH /boardcommandcenter.html
+2016-02-21 17:22:50,032 [DEBUG] ARGS 0
+2016-02-21 17:22:50,032 [DEBUG] FILE /home/pi/ledBoardProject/boardcommandcenter.html
+69.171.230.99 - - [21/Feb/2016 17:22:50] "GET /boardcommandcenter.html HTTP/1.1" 200 -
+2016-02-21 17:22:50,329 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:50,330 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:50,331 [DEBUG] ARGS 0
+2016-02-21 17:22:50,331 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+69.171.230.115 - - [21/Feb/2016 17:22:50] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:51,215 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:51,216 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:51,216 [DEBUG] ARGS 0
+2016-02-21 17:22:51,217 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+69.171.228.119 - - [21/Feb/2016 17:22:51] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:53,339 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:53,340 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:53,341 [DEBUG] ARGS 0
+2016-02-21 17:22:53,342 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+173.252.115.192 - - [21/Feb/2016 17:22:53] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:53,668 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:53,669 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:53,670 [DEBUG] ARGS 0
+2016-02-21 17:22:53,671 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+173.252.112.106 - - [21/Feb/2016 17:22:53] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:54,236 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:54,237 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:54,238 [DEBUG] ARGS 0
+2016-02-21 17:22:54,239 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+173.252.90.239 - - [21/Feb/2016 17:22:54] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:54,303 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:54,305 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:54,306 [DEBUG] ARGS 0
+2016-02-21 17:22:54,307 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+173.252.90.248 - - [21/Feb/2016 17:22:54] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:54,378 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:54,380 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:54,380 [DEBUG] ARGS 0
+2016-02-21 17:22:54,381 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+173.252.122.119 - - [21/Feb/2016 17:22:54] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:54,454 [DEBUG] GET /boardcommandcenter.html
+2016-02-21 17:22:54,456 [DEBUG] PATH /boardcommandcenter.html
+2016-02-21 17:22:54,456 [DEBUG] ARGS 0
+2016-02-21 17:22:54,457 [DEBUG] FILE /home/pi/ledBoardProject/boardcommandcenter.html
+173.252.122.118 - - [21/Feb/2016 17:22:54] "GET /boardcommandcenter.html HTTP/1.1" 200 -
+2016-02-21 17:22:54,462 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:54,463 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:54,464 [DEBUG] ARGS 0
+2016-02-21 17:22:54,465 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+173.252.90.247 - - [21/Feb/2016 17:22:54] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:54,538 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:54,539 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:54,539 [DEBUG] ARGS 0
+2016-02-21 17:22:54,540 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+173.252.112.99 - - [21/Feb/2016 17:22:54] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:54,617 [DEBUG] GET /boardcommandcenter.html
+2016-02-21 17:22:54,619 [DEBUG] PATH /boardcommandcenter.html
+2016-02-21 17:22:54,619 [DEBUG] ARGS 0
+2016-02-21 17:22:54,620 [DEBUG] FILE /home/pi/ledBoardProject/boardcommandcenter.html
+173.252.122.118 - - [21/Feb/2016 17:22:54] "GET /boardcommandcenter.html HTTP/1.1" 200 -
+2016-02-21 17:22:54,626 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:54,628 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:54,629 [DEBUG] ARGS 0
+2016-02-21 17:22:54,630 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+173.252.122.118 - - [21/Feb/2016 17:22:54] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:54,703 [DEBUG] GET /www/webserver.js
+2016-02-21 17:22:54,704 [DEBUG] PATH /www/webserver.js
+2016-02-21 17:22:54,705 [DEBUG] ARGS 0
+2016-02-21 17:22:54,706 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.js
+173.252.122.120 - - [21/Feb/2016 17:22:54] "GET /www/webserver.js HTTP/1.1" 200 -
+2016-02-21 17:22:54,779 [DEBUG] GET /www/webserver.js
+2016-02-21 17:22:54,780 [DEBUG] PATH /www/webserver.js
+2016-02-21 17:22:54,781 [DEBUG] ARGS 0
+2016-02-21 17:22:54,781 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.js
+173.252.122.118 - - [21/Feb/2016 17:22:54] "GET /www/webserver.js HTTP/1.1" 200 -
+2016-02-21 17:22:55,003 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:55,004 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:55,005 [DEBUG] ARGS 0
+2016-02-21 17:22:55,005 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+66.220.156.113 - - [21/Feb/2016 17:22:55] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:56,688 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:56,689 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:56,690 [DEBUG] ARGS 0
+2016-02-21 17:22:56,691 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+173.252.88.214 - - [21/Feb/2016 17:22:56] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:57,294 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:57,295 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:57,296 [DEBUG] ARGS 0
+2016-02-21 17:22:57,296 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+173.252.89.226 - - [21/Feb/2016 17:22:57] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:22:57,643 [DEBUG] GET /www/webserver.png
+2016-02-21 17:22:57,644 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:22:57,644 [DEBUG] ARGS 0
+2016-02-21 17:22:57,645 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+66.220.146.227 - - [21/Feb/2016 17:22:57] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:23:08,878 [DEBUG] GET /boardcommandcenter.html
+2016-02-21 17:23:08,879 [DEBUG] PATH /boardcommandcenter.html
+2016-02-21 17:23:08,880 [DEBUG] ARGS 0
+2016-02-21 17:23:08,880 [DEBUG] FILE /home/pi/ledBoardProject/boardcommandcenter.html
+162.211.217.162 - - [21/Feb/2016 17:23:08] "GET /boardcommandcenter.html HTTP/1.1" 200 -
+2016-02-21 17:23:08,956 [DEBUG] GET /www/webserver.css
+2016-02-21 17:23:08,957 [DEBUG] PATH /www/webserver.css
+2016-02-21 17:23:08,958 [DEBUG] ARGS 0
+2016-02-21 17:23:08,958 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.css
+162.211.217.162 - - [21/Feb/2016 17:23:08] "GET /www/webserver.css HTTP/1.1" 200 -
+2016-02-21 17:23:08,965 [DEBUG] GET /www/webserver.js
+2016-02-21 17:23:08,966 [DEBUG] PATH /www/webserver.js
+2016-02-21 17:23:08,967 [DEBUG] ARGS 0
+2016-02-21 17:23:08,968 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.js
+162.211.217.162 - - [21/Feb/2016 17:23:08] "GET /www/webserver.js HTTP/1.1" 200 -
+2016-02-21 17:23:08,973 [DEBUG] GET /www/webserver.png
+2016-02-21 17:23:08,975 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:23:08,976 [DEBUG] ARGS 0
+2016-02-21 17:23:08,976 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+162.211.217.162 - - [21/Feb/2016 17:23:08] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:23:09,351 [DEBUG] GET /www/webserver.png
+2016-02-21 17:23:09,352 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:23:09,353 [DEBUG] ARGS 0
+2016-02-21 17:23:09,354 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+162.211.217.162 - - [21/Feb/2016 17:23:09] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:24:40,282 [DEBUG] GET /boardcommandcenter.html
+2016-02-21 17:24:40,282 [DEBUG] PATH /boardcommandcenter.html
+2016-02-21 17:24:40,283 [DEBUG] ARGS 0
+2016-02-21 17:24:40,284 [DEBUG] FILE /home/pi/ledBoardProject/boardcommandcenter.html
+24.143.94.59 - - [21/Feb/2016 17:24:40] "GET /boardcommandcenter.html HTTP/1.1" 200 -
+2016-02-21 17:24:40,551 [DEBUG] GET /www/webserver.css
+2016-02-21 17:24:40,551 [DEBUG] PATH /www/webserver.css
+2016-02-21 17:24:40,552 [DEBUG] ARGS 0
+2016-02-21 17:24:40,553 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.css
+24.143.94.59 - - [21/Feb/2016 17:24:40] "GET /www/webserver.css HTTP/1.1" 200 -
+2016-02-21 17:24:40,558 [DEBUG] GET /www/webserver.js
+2016-02-21 17:24:40,559 [DEBUG] PATH /www/webserver.js
+2016-02-21 17:24:40,560 [DEBUG] ARGS 0
+2016-02-21 17:24:40,560 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.js
+24.143.94.59 - - [21/Feb/2016 17:24:40] "GET /www/webserver.js HTTP/1.1" 200 -
+2016-02-21 17:24:40,566 [DEBUG] GET /www/webserver.png
+2016-02-21 17:24:40,567 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:24:40,567 [DEBUG] ARGS 0
+2016-02-21 17:24:40,568 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+24.143.94.59 - - [21/Feb/2016 17:24:40] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:24:40,737 [DEBUG] GET /www/webserver.png
+2016-02-21 17:24:40,738 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:24:40,739 [DEBUG] ARGS 0
+2016-02-21 17:24:40,739 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+24.143.94.59 - - [21/Feb/2016 17:24:40] "GET /www/webserver.png HTTP/1.1" 200 -
+2016-02-21 17:24:55,274 [DEBUG] GET /boardcommandcenter.html?get_arg1=asd&get_arg2=
+2016-02-21 17:24:55,276 [DEBUG] PATH /boardcommandcenter.html
+2016-02-21 17:24:55,277 [DEBUG] ARGS 1
+2016-02-21 17:24:55,278 [DEBUG] ARG[0] get_arg1=['asd']
+2016-02-21 17:24:55,278 [DEBUG] FILE /home/pi/ledBoardProject/boardcommandcenter.html
+24.143.94.59 - - [21/Feb/2016 17:24:55] "GET /boardcommandcenter.html?get_arg1=asd&get_arg2= HTTP/1.1" 200 -
+2016-02-21 17:24:55,449 [DEBUG] GET /www/webserver.css
+2016-02-21 17:24:55,450 [DEBUG] PATH /www/webserver.css
+2016-02-21 17:24:55,451 [DEBUG] ARGS 0
+2016-02-21 17:24:55,452 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.css
+24.143.94.59 - - [21/Feb/2016 17:24:55] "GET /www/webserver.css HTTP/1.1" 200 -
+2016-02-21 17:24:55,458 [DEBUG] GET /www/webserver.js
+2016-02-21 17:24:55,459 [DEBUG] PATH /www/webserver.js
+2016-02-21 17:24:55,459 [DEBUG] ARGS 0
+2016-02-21 17:24:55,460 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.js
+24.143.94.59 - - [21/Feb/2016 17:24:55] "GET /www/webserver.js HTTP/1.1" 200 -
+2016-02-21 17:24:55,465 [DEBUG] GET /www/webserver.png
+2016-02-21 17:24:55,466 [DEBUG] PATH /www/webserver.png
+2016-02-21 17:24:55,467 [DEBUG] ARGS 0
+2016-02-21 17:24:55,467 [DEBUG] FILE /home/pi/ledBoardProject/www/webserver.png
+24.143.94.59 - - [21/Feb/2016 17:24:55] "GET /www/webserver.png HTTP/1.1" 200 -
