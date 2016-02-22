@@ -23,15 +23,16 @@
 #
 # To send GET/POST requests to board
 #   *Start the led board using script above
-#   *visit http://raspberrypi:8080/webserver.html
+#   *visit http://raspberrypi:8080/boardcommandcenter.html
 #   *Type in your parameters and hit the button! 
 #
-#   **Or construct your own eg. http://raspberrypi:8080/webserver.html?get_arg1=command%3Ainitialize
+#   **Or construct your own eg. http://raspberrypi:8080/boardcommandcenter.html?get_arg1=command%3Ainitialize
 #
 # To view GUI from external IP
 #  * Add port forwarding rule on your router to route traffic to the raspberry pi IP for port 8080
+#  * then visit <yourExternalIP>:8080/boardcommandcenter.html
 #
 # To view logs for webserver requests
 #  >cd www-logs/
-#  >cat webserver-raspberrypi-8080.err 
+#  >cat webserver-0.0.0.0-8080.err 
 ###############################
