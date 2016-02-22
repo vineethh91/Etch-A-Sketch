@@ -36,8 +36,11 @@
 #  >cd www-logs/
 #  >cat webserver-0.0.0.0-8080.err 
 #
-# Reference material :
+# Reference materials :
 #   *Technical Details section outlines how it works - https://github.com/adafruit/rpi-rgb-led-matrix
+#   **More details - https://learn.adafruit.com/32x16-32x32-rgb-led-matrix/how-the-matrix-works
+#   **Adafruit pdf on the led board - https://learn.adafruit.com/downloads/pdf/32x16-32x32-rgb-led-matrix.pdf
+#   **Random dude's project using this board - http://bikerglen.com/projects/lighting/led-panel-1up/#Theory_of_Operation
 #   *http://www.rayslogic.com/propeller/programming/AdafruitRGB/AdafruitRGB.htm
 #   *32x32 LED board page - https://www.sparkfun.com/products/12584
 #   **Guide - https://learn.sparkfun.com/tutorials/rgb-panel-hookup-guide?_ga=1.102262851.31206856.1455497798
