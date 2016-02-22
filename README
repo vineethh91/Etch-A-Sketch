@@ -28,6 +28,8 @@
 #
 #   **Or construct your own eg. http://raspberrypi:8080/webserver.html?get_arg1=command%3Ainitialize
 #
+# To view GUI from external IP
+#  * Add port forwarding rule on your router to route traffic to the raspberry pi IP for port 8080
 #
 # To view logs for webserver requests
 #  >cd www-logs/
