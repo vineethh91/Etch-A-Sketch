@@ -1,10 +1,10 @@
-##############################
-#                            #
-# Get the hell out of here!  #
-#                            #
-##############################
+############################################################################################################################
+#                            
+# Get the hell out of here!  
+#                            
+############################################################################################################################
 
-###############################
+############################################################################################################################
 #Usage:                       
 #                            
 # Download repo
@@ -35,4 +35,16 @@
 # To view logs for webserver requests
 #  >cd www-logs/
 #  >cat webserver-0.0.0.0-8080.err 
-###############################
+#
+# Reference material :
+#   *Technical Details section outlines how it works - https://github.com/adafruit/rpi-rgb-led-matrix
+#   *http://www.rayslogic.com/propeller/programming/AdafruitRGB/AdafruitRGB.htm
+#   *32x32 LED board page - https://www.sparkfun.com/products/12584
+#   **Guide - https://learn.sparkfun.com/tutorials/rgb-panel-hookup-guide?_ga=1.102262851.31206856.1455497798
+#   *Github repos :
+#   **https://github.com/adafruit/RGB-matrix-Panel
+#   **https://github.com/adafruit/Adafruit-GFX-Library
+############################################################################################################################
+
+
+
