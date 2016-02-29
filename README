@@ -36,6 +36,11 @@
 #  >cd www-logs/
 #  >cat webserver-0.0.0.0-8080.err 
 #
+# To run test the LED Matrix 
+#  * Wire up board to Raspberry Pi Model B as per the pin mapping in BoardHandler.py
+#  * Run >pythong2.7 BoardHandlerTest.py
+#  * You should see a fully white board with a square rotated 45 degrees
+#
 # Reference materials :
 #   *Technical Details section outlines how it works - https://github.com/adafruit/rpi-rgb-led-matrix
 #   **More details - https://learn.adafruit.com/32x16-32x32-rgb-led-matrix/how-the-matrix-works

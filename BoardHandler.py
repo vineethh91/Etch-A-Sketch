@@ -50,6 +50,24 @@ SLEEP_TIME_BETWEEN_LED_SHIFT = 0.05
 
 INITIALIZATION_LOOP_COUNT = 48 # 16 rows x 3 times each = 48 
 
+# LED MATRIX ROW x COLUMN count (incase you want to swap it out with 16x32 instead of 32x32
+MAX_ROW_COUNT = 31 # index starts from 0
+MAX_COLUMN_COUNT = 31 # index starts from 0
+
+# Set log level to debug mode by setting to True
+# WARNING : At the high rate this is happening this could freeze up due to high volume of logs
+logDebug = False 
+
+# Based on my experimentation making a brain dump of Basic flow of what should be done in each iteration 
+# to get the data onto the matrix board
+#
+# -> For any instruction the board always references two rows in parallel - row N and row N + 16 
+# -> You announce the row to the board by setting the demux-able value onto pins D through A(D is highest bit and A is lowest bit) - so 1001 = row 9 and row 25
+# -> Then you put the colour data onto the pins R0/G0/B0 + R1/G1/B1 for the Nth and (N+16)th rows simultaneously
+# -> Then you CLK it once the above data is ready on the pins
+# -> Rinse and repeat above steps for each of the 32 columns for each row
+# -> Once all 32 columns have been shifted in then STROBE enable to push the data to the output register making it visible to the user
+# -> Move to the next pair of rows and repeat all steps
 class BoardHandler :
 
 
@@ -57,8 +75,35 @@ class BoardHandler :
         print "BoardHandler Constructor"
         GPIO.setwarnings(False)
 
-    def cleanUpBoard(self):
-        GPIO.cleanup()
+    # Input buffer is a 3D array 
+    # Has 32 rows x 32 columns
+    # Each element is a list of size = 3 where
+    #     Index 0 = RED colour
+    #     Index 1 = BLUE colour
+    #     Index 2 = GREEN colour
+    #  
+    # TODO : Right now 1 equals turn on and 0 turn off, but later on i'll be implementing binary code modulation allowing for 8-bit representations
+    #
+    def printBufferToBoard(self, buffer):
+        # Print the entire buffer
+        #print(buffer[:][:][:])
+
+        for i in range(16): 
+            GPIO.output(OE, GPIO.LOW)
+            for j in range(32):
+                r_0 = buffer[i][j][0]
+                g_0 = buffer[i][j][1]
+                b_0 = buffer[i][j][2]
+
+                r_1 = buffer[i+16][j][0]
+                g_1 = buffer[i+16][j][1]
+                b_1 = buffer[i+16][j][2]
+
+                self.setRGBValues(r_0, g_0, b_0, r_1, g_1, b_1)
+                self.setDemuxRowPinValues(i)
+                self.clockData()
+            self.enableStrobe()
+            GPIO.output(OE, GPIO.HIGH)
 
     # Kick off initialization packets to the Board to boot up
     # Cycles through all the rows + all colours of each LED so you can visually ensure everything is wired up and working correctly
@@ -83,13 +128,8 @@ class BoardHandler :
             else:
               blue = True
 
-            GPIO.output(R0, red) 
-            GPIO.output(G0, green) 
-            GPIO.output(B0, blue) 
+            self.setRGBValues(red, green, blue, red, green, blue)
 
-            GPIO.output(R1, red) 
-            GPIO.output(G1, green) 
-            GPIO.output(B1, blue) 
             column += 1
             if(column > 3):
               column = 1
@@ -160,13 +200,29 @@ class BoardHandler :
         cPin = True if (row & 4 != 0) else False 
         dPin = True if (row & 8 != 0) else False 
 
-        print "Shifting data for row " , row , "Binary representation => ", bin(row).zfill(4), dPin, cPin, bPin, aPin
+        if(logDebug):
+            print "Shifting data for row " , row , "Binary representation => ", bin(row).zfill(4), dPin, cPin, bPin, aPin
 
         GPIO.output(A,aPin) 
         GPIO.output(B,bPin) 
         GPIO.output(C,cPin) 
         GPIO.output(D,dPin) 
-    
+
+    # Set color values for the two pixels
+    # r_0/g_0/b_0 -> maps to row N 
+    # r_1/g_1/b_1 -> maps to row N+16
+    def setRGBValues(self, r_0, g_0, b_0, r_1, g_1, b_1):
+        GPIO.output(R0, r_0) 
+        GPIO.output(G0, g_0) 
+        GPIO.output(B0, b_0) 
+
+        GPIO.output(R1, r_1) 
+        GPIO.output(G1, g_1) 
+        GPIO.output(B1, b_1) 
+
+    def cleanUpBoard(self):
+        GPIO.cleanup()
+
     # Diagnostics
     # Invoked to do a complete board diagnostics(every pixel working?, 
     # known patterns continue to print? = useful for debugging)
