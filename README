@@ -52,6 +52,11 @@
 #   *Github repos :
 #   **https://github.com/adafruit/RGB-matrix-Panel
 #   **https://github.com/adafruit/Adafruit-GFX-Library
+#   *Binary code modulation theory - http://www.batsocks.co.uk/readme/art_bcm_1.htm
+#
+#   *PIL -> Array - http://stackoverflow.com/questions/2659312/how-do-i-convert-a-numpy-array-to-and-display-an-image
+#   **http://effbot.org/imagingbook/image.htm
+#   **http://effbot.org/imagingbook/imagedraw.htm
 ############################################################################################################################
 
 
