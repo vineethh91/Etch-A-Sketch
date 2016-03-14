@@ -7,10 +7,31 @@ from PIL import Image
 from PIL import ImageDraw
 import time
 import numpy as npy
+import BasicMappings as Map
 
 class ImageBufferCreator: 
 
     image = Image.new("1", (32, 32))
+
+    matrixMap = { 'a' : Map.A,
+                  'b' : Map.B,
+                  'c' : Map.C,
+                  'd' : Map.D,
+                  'e' : Map.E,
+                  'h' : Map.H,
+                  'i' : Map.I,
+                  'k' : Map.K,
+                  'l' : Map.L,
+                  'o' : Map.O,
+                  'p' : Map.P,
+                  'r' : Map.R,
+                  'w' : Map.W,
+                  # special characters
+                  '!' : Map.Exclamation,
+                  ' ' : Map.E_S
+                  
+                }
+
 
     def __init__(self):
         print "ImageBufferCreator Constructor"
@@ -44,3 +65,13 @@ class ImageBufferCreator:
 
     def rotateImage(self, angle):
         self.image = self.image.rotate(angle)
+
+    # Takes in a string to convert to a image buffer to be drawn onto the board
+    def convertStringToBuffer(self, stringToBePrinted):
+         stringBuffer = self.matrixMap.get(" ")
+         for character in stringToBePrinted:
+           stringBuffer = npy.hstack((stringBuffer, self.matrixMap.get(character, self.matrixMap.get(" "))))
+
+         return stringBuffer
+
+

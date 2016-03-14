@@ -12,6 +12,7 @@
 # >chmod a+x startLEDBoard.sh 
 # >chmod a+x stopLEDBoard.sh 
 #
+# === STARTING THE WEBSERVER
 # To start:                    
 #  in regular mode(no verbose logging)
 #    >./startLEDBoard.sh
@@ -36,6 +37,7 @@
 #  >cd www-logs/
 #  >cat webserver-0.0.0.0-8080.err 
 #
+# ==RUN THE LED MATRIX DIAGNOSTICS TEST
 # To run test the LED Matrix 
 #  * Wire up board to Raspberry Pi Model B as per the pin mapping in BoardHandler.py
 #  * Run >pythong2.7 BoardHandlerTest.py
@@ -53,6 +55,8 @@
 #   **https://github.com/adafruit/RGB-matrix-Panel
 #   **https://github.com/adafruit/Adafruit-GFX-Library
 #   *Binary code modulation theory - http://www.batsocks.co.uk/readme/art_bcm_1.htm
+#   **http://bikerglen.com/projects/lighting/led-panel-1up/#Driving_the_Panel
+#   **Some more code samples - http://raspberryalphaomega.org.uk/2013/06/18/efficient-software-pwm-with-bit-angle-modulation/
 #
 #   *PIL -> Array - http://stackoverflow.com/questions/2659312/how-do-i-convert-a-numpy-array-to-and-display-an-image
 #   **http://effbot.org/imagingbook/image.htm
